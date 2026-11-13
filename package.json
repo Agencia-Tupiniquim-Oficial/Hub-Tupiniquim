@@ -1,0 +1,16 @@
+{
+  "name": "hub-tupiniquim",
+  "private": true,
+  "packageManager": "pnpm@12.14.0",
+  "scripts": {
+    "build": "turbo build",
+    "dev": "turbo dev",
+    "lint": "turbo lint",
+    "test": "turbo test",
+    "typecheck": "turbo typecheck"
+  },
+  "devDependencies": {
+    "turbo": "^2.5.8",
+    "typescript": "^5.9.3"
+  }
+}
